@@ -63,7 +63,7 @@ public class Week1 implements  IWindowListener  {
 		
         // clear the colour buffer
 		glClearColor(0.0f, 0.0f, 0.0f, 1.0f); // BLACK
-		glClear(GL_COLOR_BUFFER_BIT);		
+		glClear(GL_COLOR_BUFFER_BIT);	
 		
 		// draw the scene
 		scene.draw(screenWidth,screenHeight);	
